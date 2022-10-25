@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LoginFormComponent } from './login-form/login-form.component';
 import { ButtonComponent } from './button/button.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 
 
 @NgModule({
   declarations: [
-    LoginFormComponent,
-    ButtonComponent
+    ButtonComponent,
+    LoginPageComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    LoginFormComponent,
+    LoginPageComponent,
     ButtonComponent
   ]
 })

@@ -1,0 +1,5 @@
+<div class="home">
+    <h2>Logged in users list:</h2>
+    <app-card *ngFor="let user of users; let i = index" [user]="user" [id]="i+1" ></app-card>
+</div>
+
