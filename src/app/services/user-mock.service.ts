@@ -16,5 +16,6 @@ export class UserMockService {
   addUser(name:string,password:string):void
   {
     this.users.push(name)
+    console.log(this.users)
   }
 }

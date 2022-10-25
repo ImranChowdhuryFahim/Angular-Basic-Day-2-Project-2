@@ -1,2 +1,15 @@
-<p>login-page works!</p>
-<app-button></app-button>
+<div class="form">
+    <label>User Name:</label><br>
+    <input type="text" [(ngModel)]="name"><br>
+    <label>Password:</label><br>
+    <input type="password" [(ngModel)]="password"><br><br>
+
+
+</div> 
+<app-button (hitSubmit)="welcomeUser()"></app-button>
+
+<div class="output">
+    <p>{{ message }}</p>
+</div>
+
+
