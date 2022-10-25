@@ -15,22 +15,25 @@
 </div>
 <div class="welcome">
   <h1>Welcome to the Angular Basic Project</h1>
+  <h3>Current Route: {{route}}</h3>
 
   <div *ngIf="route==='/'" class="description">
-    <h2>Current Route: {{route}}</h2>
+    
     <h2>Description of the Project</h2>
     <p>This project contains two routes:</p>
     <li><a href="/login">Login Route</a></li>
     <li><a href="/home">Home Route</a></li>
+    <p>This project contains one service called friend</p>
     <p>This project contains two modules:</p>
     <li>Login Module</li>
     <li>Home Module</li>
     <p>Login module contains two components:</p>
-    <li>Login-Form Component</li>
-    <li>Button Component</li>
+    <li>Home-Page Component</li>
+    <li>Card Component</li>
     <p>Home module contains two components:</p>
-    <li>Login-Form Component</li>
+    <li>Login-Page Component</li>
     <li>Button Component</li>
+    
   </div>
 
   

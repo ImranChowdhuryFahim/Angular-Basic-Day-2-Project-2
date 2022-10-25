@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { UserMockService } from 'src/app/services/user-mock.service';
+import { FrinedService } from 'src/app/services/frined.service';
 
 @Component({
   selector: 'app-home-page',
@@ -9,8 +9,8 @@ import { UserMockService } from 'src/app/services/user-mock.service';
 export class HomePageComponent implements OnInit {
   users:string[] = []
 
-  constructor(private service:UserMockService) {
-    this.users = service.getUsers()
+  constructor(private service:FrinedService) {
+    this.users = this.service.getFreinds()
    }
 
   ngOnInit(): void {

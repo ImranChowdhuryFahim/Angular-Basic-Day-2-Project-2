@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { UserMockService } from './user-mock.service';
+import { FrinedService } from './frined.service';
 
-describe('UserMockService', () => {
-  let service: UserMockService;
+describe('FrinedService', () => {
+  let service: FrinedService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(UserMockService);
+    service = TestBed.inject(FrinedService);
   });
 
   it('should be created', () => {

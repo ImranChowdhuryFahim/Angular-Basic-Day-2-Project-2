@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { UserMockService } from 'src/app/services/user-mock.service';
 
 
 @Component({
@@ -13,7 +12,7 @@ export class LoginPageComponent implements OnInit {
   message:string = ''
 
 
-  constructor(private service:UserMockService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
