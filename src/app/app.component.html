@@ -6,10 +6,10 @@
   />
   <span>Angular Basic Day-2 Project-2</span>
     <div class="spacer"></div>
-    <a href="/home">
+    <a [routerLink]="['/home']">
       Home
     </a>
-    <a href="/login">
+    <a [routerLink]="['/login']">
       Login
     </a>
 </div>
@@ -21,8 +21,8 @@
     
     <h2>Description of the Project</h2>
     <p>This project contains two routes:</p>
-    <li><a href="/login">Login Route</a></li>
-    <li><a href="/home">Home Route</a></li>
+    <li><a [routerLink]="['/login']">Login Route</a></li>
+    <li><a [routerLink]="['/home']">Home Route</a></li>
     <p>This project contains one service called friend</p>
     <p>This project contains two modules:</p>
     <li>Login Module</li>
