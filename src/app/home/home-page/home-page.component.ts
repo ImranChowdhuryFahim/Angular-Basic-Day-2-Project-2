@@ -1,5 +1,4 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { FrinedService } from 'src/app/services/frined.service';
 import { DataHolderService } from '../service/data-holder.service';
 
 @Component({
